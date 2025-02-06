@@ -10,5 +10,5 @@ if [ ! -d "$(dirname "$0")/../.nx" ]; then
 fi
 
 echo "🚀 Running pre-commit tasks 🚀"
-npx lint-staged --allow-empty
+npx.cmd lint-staged --allow-empty
 echo "🏁 Finished pre-commit tasks 🏁"
